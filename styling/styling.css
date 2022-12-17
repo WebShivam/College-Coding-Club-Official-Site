@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    background-image: url("resources/CodingClub-HomePage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+.home-wallpaper{
+    position: absolute;
+    top: 0;
+    width:100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+nav{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    display: flex;
+}
+
+#logo-el{
+    height: 3em;
+    width: 3em;
+}
+
+.logo-info{
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    margin: 2.5px 5px;
+  }
+
+.nav-navbar>.nav-link {
+    color: whitesmoke;
+}
+.col-el{
+    color: white;
+    margin-top: 1.5em;
+}
+.col-el h1{
+    font-family: 'Playfair Display', serif;
+}
