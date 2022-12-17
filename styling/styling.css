@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-body{
-    background-image: url("resources/CodingClub-HomePage.jpg");
-    background-size: cover;
-    background-repeat: no-repeat ;
-}
 .home-wallpaper{
     position: absolute;
     top: 0;
@@ -36,8 +31,16 @@ nav{
 }
 .col-el{
     color: white;
-    margin-top: 1.5em;
+    margin-top: 3.5em;
 }
 .col-el h1{
     font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+.col-el p{
+    font-size: 18px;
+}
+.form{
+    margin-top: 3.5em;
+    color: whitesmoke;
 }
