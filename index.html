@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>College Coding Club - Official Site</title>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-social/bootstrap-social.css"
+    />
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -13,53 +22,70 @@
   </head>
   <body>
     <img
-      class="home-wallpaper"
-      src="resources/CodingClub-HomePage.jpg"
-      alt="home page wallpaper"
+      id="homepage-wlppr-el"
+      src="./resources/CodingClub-HomePage.jpg"
+      alt="Coding Friendly Wallpaper"
     />
-    <nav
-      class="navbar navbar-expand-lg navbar-light navbar-stick-dark"
-      data-navbar="sticky"
-    >
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
       <div class="container">
-        <div class="navbar-left">
-          <a class="navbar-brand" href="#">
-            <img
-              id="logo-el"
-              src="resources/Coding-Club-Logo-Modified.png"
-              alt="LOGO"
-            />
-          </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand">
+          <img
+            src="./resources/Coding-Club-Logo-Modified.png"
+            alt="Coding Club Official Logo"
+          />
+        </a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active"
+                ><span class="fa fa-home fa-lg"></span> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./aboutus.html" class="nav-link"
+                ><span class="fa fa-info fa-lg"></span> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./team-page.html" class="nav-link"
+                ><span class="fa fa-users fa-lg"></span> Team</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./contactus.html" class="nav-link"
+                ><span class="fa fa-phone fa-lg"></span> Contact</a
+              >
+            </li>
+          </ul>
         </div>
-        <section class="navbar-mobile">
-          <nav class="nav nav-navbar ml-auto">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Gallery</a>
-          </nav>
-        </section>
       </div>
     </nav>
 
     <div class="container">
-      <div class="row">
-        <div class="col-6 col-el align-items-center">
-          <h1>College Coding Club</h1>
+      <div class="row row-ui row-content align-items-center">
+        <div class="col-lg-6">
+          <h1>Coding Club</h1>
           <p>
-            This is a Coding Club that has established in 2022. This club has a
-            vision to provide good resources and a coding friendly environment.
-            This Coding Club has a core team that can help the team-members with
-            anything if they can. A developer friendly environment is very
-            necessary for junior developers this days. So this is a vision for
-            this coding club to provide sufficient resources and guideness to
-            the developers.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+            ad inventore eius sint vel laboriosam placeat soluta aut quia amet
+            corporis, odio fugit doloribus incidunt, quod vitae maiores
+            necessitatibus non?
           </p>
         </div>
-        <div class="col">
-          <div class="form"></div>
-        </div>
+        <div class="col-lg-6"></div>
       </div>
     </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

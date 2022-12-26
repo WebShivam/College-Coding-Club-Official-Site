@@ -1,46 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-.home-wallpaper{
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+#homepage-wlppr-el{
     position: absolute;
     top: 0;
-    width:100vw;
+    width: 100vw;
     height: 100vh;
     object-fit: cover;
 }
 nav{
-    font-family: 'Vollkorn', serif;
-    font-size: 20px;
-    display: flex;
-}
-
-#logo-el{
-    height: 3em;
-    width: 3em;
-}
-
-.logo-info{
-    display: flex;
-    flex-direction: row;
-}
-.navbar{
-    margin: 2.5px 5px;
-  }
-
-.nav-navbar>.nav-link {
-    color: whitesmoke;
-}
-.col-el{
-    color: white;
-    margin-top: 3.5em;
-}
-.col-el h1{
-    font-family: 'Playfair Display', serif;
     margin-bottom: 20px;
 }
-.col-el p{
+.navbar-brand img{
+    height: 35px;
+    width: 35px;
+}
+.navbar-dark{
+    background: darkblue;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.row-ui h1{
+    font-family: 'Train One', cursive;
+}
+.row-ui p{
     font-size: 18px;
 }
-.form{
-    margin-top: 3.5em;
-    color: whitesmoke;
+.row-ui h1,p{
+    color: aliceblue;
+}
+.footer{
+    background: rgb(252, 157, 32);
+    margin: 0px auto;
+    padding: 20px 0px;
 }
